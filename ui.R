@@ -13,8 +13,8 @@ shinyUI(
                    value = 1),
       radioButtons("sex", label = "Gender of child that has been diagnosed",
                    choices = list("Male" = 1,
-                                  "Female" = 0),selected = 1)
-      #submitButton("Submit")
+                                  "Female" = 0),selected = 1),
+      submitButton("Submit")
       
     ),
     mainPanel(
